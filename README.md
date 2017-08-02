@@ -1,6 +1,6 @@
 # gradle-pom-jar-bug
 
-Steps to reproduce:
+Reproduction steps for https://github.com/gradle/gradle/issues/2631:
 - delete your local Maven repository (.m2/repository) and Gradle caches (.gradle/caches)
 - run mvn install
 -- => local Maven repo contains only the POM for zookeeper 3.4.6
